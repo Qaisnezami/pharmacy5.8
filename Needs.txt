@@ -1,0 +1,10 @@
+npm install admin-lte@v3.0.0-alpha.2 --save
+composer require laravel/passport=^7.0
+
+Client ID: 1
+Client secret: t3ClxSRn4rJTVKnt0adtXQpWnu7ps5vCb4AqVPbG
+Password grant client created successfully.
+Client ID: 2
+Client secret: 1XWlffrpwZjM4CsC7YuX8uNdgUW8JsKBOiM5aEcZ
+
+php artisan make:controller API/PhotoController --api

@@ -1,0 +1,16 @@
+@media print {
+    .Expiry,.barcode,.Batch{
+                display: none  !important;
+            }
+
+
+@page {
+  size: 210mm 148mm;
+}
+}
+
+@page {
+  size: 210mm 148mm;
+}
+
+

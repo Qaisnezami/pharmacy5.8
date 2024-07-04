@@ -1,0 +1,82 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+$fa-font-path:"../webfonts";
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~admin-lte/dist/css/adminlte.css';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
+@import '~@fortawesome/fontawesome-free/scss/brands.scss';
+@import '~@fortawesome/fontawesome-free/scss/brands.scss';
+@import '~dropify/dist/css/dropify.css';
+@import "vue-select/src/scss/vue-select.scss";
+@import "../assets/css/datepicker.min.css";
+// @import "../assets/css/dropify.css";
+@import "../assets/css/select2.min.css";
+
+
+
+.router-link-exact-active{
+    color: #ffffff !important;
+    background-color: #007bff;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.3em + 0.75rem + 2px);
+    }
+
+    .form-control[readonly] {
+        background-color: white;
+        opacity: 1;
+    }
+
+
+    .select2{
+                
+        &.select2-container{
+            top: -4px;
+            .select2-selection--single{
+                height: 50px;
+                border-radius:0;
+                &:focus{
+                    outline: none;
+                }
+                .select2-selection__rendered{
+                    line-height: 50px;
+                }
+                .select2-selection__arrow{
+                    display:none;
+                }
+                
+            }
+            
+            
+        }
+
+        
+    }
+    
+    .select2-container--default{
+&.select2-container--open{
+top:6px !important;
+}
+.select2-dropdown--below{
+top: -4px;
+}
+
+.select2-search--dropdown{
+padding: 0;
+.select2-search__field{
+    height: 48px;
+    border:0;
+    border-bottom: 1px solid #aaa;
+    padding:10px;
+    box-sizing: border-box;
+
+}
+} 
+}
